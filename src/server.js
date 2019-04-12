@@ -32,4 +32,4 @@ app.get('/', (req, res) => {
   res.send('hello word')
 })
 
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
